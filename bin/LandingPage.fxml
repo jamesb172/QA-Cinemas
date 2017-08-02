@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="129.0" prefWidth="394.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LandingController">
+   <children>
+      <BorderPane layoutX="-15.0" layoutY="-8.0" prefHeight="219.0" prefWidth="394.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <top>
+            <AnchorPane prefHeight="45.0" prefWidth="394.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="49.0" fitWidth="154.0" layoutX="120.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </AnchorPane>
+         </top>
+         <bottom>
+            <AnchorPane prefHeight="32.0" prefWidth="394.0" style="-fx-background-color: F3F3F3;" BorderPane.alignment="CENTER">
+               <children>
+                  <Label layoutX="114.0" layoutY="5.0" text="James Berry - jb@jamesbe.com" />
+               </children>
+            </AnchorPane>
+         </bottom>
+         <left>
+            <AnchorPane prefHeight="74.0" prefWidth="394.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button fx:id="purchaseButton" layoutX="14.0" layoutY="9.0" mnemonicParsing="false" onAction="#purchase" prefHeight="35.0" prefWidth="178.0" text="Purchase Tickets" />
+                  <Button fx:id="checkButton" layoutX="202.0" layoutY="9.0" mnemonicParsing="false" onAction="#check" prefHeight="35.0" prefWidth="178.0" text="Check your Tickets" />
+               </children>
+            </AnchorPane>
+         </left>
+      </BorderPane>
+   </children>
+</AnchorPane>
